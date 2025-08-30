@@ -1,0 +1,27 @@
+{
+  "todos": {
+    "Coordinator": {
+      "1": {
+        "id": "1",
+        "content": "Generate sample portfolio images for photographer website",
+        "details": "Create high-quality placeholder images for different categories: weddings, portraits, nature photography to populate the portfolio gallery",
+        "status": "completed",
+        "priority": "high"
+      },
+      "2": {
+        "id": "2",
+        "content": "Build the photographer portfolio website (Static Version)",
+        "details": "Develop a complete static portfolio website with HTML/CSS/JavaScript:\n- Home page with hero image and call-to-action\n- About section with photographer bio\n- Portfolio gallery with lightbox and category filters (Weddings, Portraits, Nature)\n- Services/Pricing section with package cards\n- Testimonials section with customer reviews\n- Contact form and location map\n- Responsive design for all devices\n- Professional styling with modern UI/UX",
+        "status": "completed",
+        "priority": "high"
+      },
+      "3": {
+        "id": "3",
+        "content": "Test website functionality and deploy",
+        "details": "Test all interactive features including:\n- Gallery lightbox and filtering\n- Contact form submission\n- Responsive behavior across devices\n- Deploy to web hosting for public access",
+        "status": "pending",
+        "priority": "medium"
+      }
+    }
+  }
+}

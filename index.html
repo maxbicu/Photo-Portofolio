@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Photography - Capturing Moments That Last Forever</title>
+    <meta name="description" content="Professional photographer specializing in weddings, portraits, and lifestyle photography. Book your session today.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Alex Photography</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="imgs/hero-wedding.png" alt="Professional wedding photography" class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="300">I capture moments that last forever</h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="500">Creating timeless memories through passionate photography, specializing in weddings, portraits, and life's most precious moments</p>
+            <a href="#portfolio" class="btn btn-primary" data-aos="fade-up" data-aos-delay="700">View Portfolio</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="../Photo-Portofolio/dist/imgs/Flux_Dev_Fashion_portrait_photography_of_an_ultrarealistic_por_1.jpg" alt="Alex - Professional Photographer" class="photographer-image">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-bio">
+                        <p class="lead">Hi, I'm Alex — professional photographer specializing in weddings, portraits, and lifestyle photography.</p>
+                        <p>With over 8 years of experience behind the lens, I believe that photography is more than just capturing images; it's about preserving emotions, telling stories, and creating memories that will be treasured for generations.</p>
+                        <p>My passion lies in finding those genuine, unguarded moments that reveal the true essence of my subjects. Whether it's the intimate glance between newlyweds, the joy in a child's laughter, or the quiet beauty of nature, I strive to create images that speak to the heart.</p>
+                        <p>Based in the heart of the city, I travel throughout the region to capture your special moments. My approach is relaxed and natural, ensuring you feel comfortable and confident in front of the camera.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-label">Weddings Captured</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">8</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery Section -->
+    <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">My Portfolio</h2>
+                <p class="section-subtitle">Discover the beauty in every moment through my lens</p>
+            </div>
+            
+            <!-- Portfolio Filters -->
+            <div class="portfolio-filters" data-aos="fade-up" data-aos-delay="200">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="weddings">Weddings</button>
+                <button class="filter-btn" data-filter="portraits">Portraits</button>
+                <button class="filter-btn" data-filter="nature">Nature</button>
+            </div>
+            
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid" data-aos="fade-up" data-aos-delay="400">
+                <!-- Wedding Photos -->
+                <div class="portfolio-item" data-category="weddings">
+                    <a href="imgs/romantic_mountain_wedding_couple_natural_light.jpg" data-lightbox="portfolio" data-title="Romantic mountain wedding with natural lighting">
+                        <img src="imgs/romantic_mountain_wedding_couple_natural_light.jpg" alt="Romantic mountain wedding couple" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="portfolio-item" data-category="weddings">
+                    <a href="imgs/wedding_reception_first_dance_string_lights.jpg" data-lightbox="portfolio" data-title="First dance under string lights">
+                        <img src="imgs/wedding_reception_first_dance_string_lights.jpg" alt="Wedding reception first dance" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="portfolio-item" data-category="weddings">
+                    <a href="imgs/elegant_bridal_portrait_wedding_dress_bouquet.jpg" data-lightbox="portfolio" data-title="Elegant bridal portrait">
+                        <img src="imgs/elegant_bridal_portrait_wedding_dress_bouquet.jpg" alt="Elegant bridal portrait" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="portfolio-item" data-category="weddings">
+                    <a href="imgs/wedding-3.png" data-lightbox="portfolio" data-title="Wedding ceremony moment">
+                        <img src="imgs/wedding-3.png" alt="Wedding ceremony" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Portrait Photos -->
+                <div class="portfolio-item" data-category="portraits">
+                    <a href="imgs/professional_studio_portrait_woman_headshot.jpg" data-lightbox="portfolio" data-title="Professional studio portrait">
+                        <img src="imgs/professional_studio_portrait_woman_headshot.jpg" alt="Professional studio portrait" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="portfolio-item" data-category="portraits">
+                    <a href="imgs/professional_business_man_headshot_portrait.jpg" data-lightbox="portfolio" data-title="Professional business headshot">
+                        <img src="imgs/professional_business_man_headshot_portrait.jpg" alt="Professional business headshot" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="portfolio-item" data-category="portraits">
+                    <a href="imgs/family_portrait_outdoor_natural_light.jpg" data-lightbox="portfolio" data-title="Family portrait with natural light">
+                        <img src="imgs/family_portrait_outdoor_natural_light.jpg" alt="Family portrait outdoor" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Nature Photos -->
+                <div class="portfolio-item" data-category="nature">
+                    <a href="imgs/scenic_mountain_forest_landscape_panoramic.jpg" data-lightbox="portfolio" data-title="Scenic mountain forest landscape">
+                        <img src="imgs/scenic_mountain_forest_landscape_panoramic.jpg" alt="Mountain forest landscape" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="portfolio-item" data-category="portraits">
+                    <a href="imgs/portrait-1.png" data-lightbox="portfolio" data-title="Professional portrait photography">
+                        <img src="imgs/portrait-1.png" alt="Professional portrait" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Services & Pricing</h2>
+                <p class="section-subtitle">Professional photography packages tailored to your needs</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Wedding Package -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="service-title">Wedding Package</h3>
+                    <div class="service-price">$2,500</div>
+                    <p class="service-description">Complete wedding day coverage with edited gallery</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 8 hours of coverage</li>
+                        <li><i class="fas fa-check"></i> 300+ edited photos</li>
+                        <li><i class="fas fa-check"></i> Online gallery</li>
+                        <li><i class="fas fa-check"></i> Engagement session included</li>
+                        <li><i class="fas fa-check"></i> Second photographer option</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Book Now</a>
+                </div>
+                
+                <!-- Portrait Session -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="service-title">Portrait Session</h3>
+                    <div class="service-price">$350</div>
+                    <p class="service-description">Professional portraits with retouched images</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 1 hour session</li>
+                        <li><i class="fas fa-check"></i> 30+ edited photos</li>
+                        <li><i class="fas fa-check"></i> Professional retouching</li>
+                        <li><i class="fas fa-check"></i> Studio or location shoot</li>
+                        <li><i class="fas fa-check"></i> High-resolution files</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Book Now</a>
+                </div>
+                
+                <!-- Event Coverage -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3 class="service-title">Event Coverage</h3>
+                    <div class="service-price">$800</div>
+                    <p class="service-description">Corporate and special event photography</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 4 hours of coverage</li>
+                        <li><i class="fas fa-check"></i> 150+ edited photos</li>
+                        <li><i class="fas fa-check"></i> Same-day highlights</li>
+                        <li><i class="fas fa-check"></i> Print-ready files</li>
+                        <li><i class="fas fa-check"></i> Commercial usage rights</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">What Clients Say</h2>
+                <p class="section-subtitle">Real stories from real clients</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Alex captured our wedding day perfectly! Every moment was beautifully documented. The photos are absolutely stunning and we couldn't be happier with the results."</p>
+                    <div class="testimonial-author">
+                        <strong>Sarah & Mike</strong>
+                        <span>Wedding Clients</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Professional, creative, and so easy to work with. Alex made our portrait session fun and comfortable. The final images exceeded our expectations. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <strong>Jessica T.</strong>
+                        <span>Portrait Client</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The family portraits turned out amazing. Alex made everyone feel comfortable and captured our personalities perfectly. We now have beautiful memories to treasure forever."</p>
+                    <div class="testimonial-author">
+                        <strong>The Johnson Family</strong>
+                        <span>Family Portrait Clients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Ready to capture your special moments? Let's discuss your photography needs</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>hello@alexphotography.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>New York, NY<br>Available for travel</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Pinterest">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </div>
+                    
+                    <!-- Map -->
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1635959999999!5m2!1sen!2sus" 
+                            width="100%" 
+                            height="250" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm" class="form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Select a Service</option>
+                                <option value="wedding">Wedding Photography</option>
+                                <option value="portrait">Portrait Session</option>
+                                <option value="event">Event Coverage</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell me about your photography needs..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Alex Photography</h3>
+                    <p>Capturing moments that last forever</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alex Photography. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
